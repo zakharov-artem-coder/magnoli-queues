@@ -1,0 +1,19 @@
+{
+  "name": "queue-worker",
+  "version": "1.0.0",
+  "main": "worker.ts",
+  "license": "MIT",
+  "scripts": {
+    "start:worker": "ts-node worker.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@azure/storage-queue": "^12.12.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "@types/node": "^20.8.8"
+  }
+}
